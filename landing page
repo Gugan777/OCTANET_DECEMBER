@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Just Eat - Order Your Meal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="hero">
+        <div class="container">
+            <h1>Just Eat</h1>
+            <p>"Welcome to Just Eat, where your cravings meet convenience! Discover a world of deliciousness with just a few clicks—whether you’re in the mood for sizzling Biriyani, Pasta, fresh Grilled steak, or comforting local favorites, we’ve got it all. Browse through a variety of top-rated restaurants, customize your order, and enjoy fast, reliable delivery straight to your doorstep. Hungry? Let us satisfy your appetite with ease. Your next meal is only moments away—order now and experience the joy of great food made simple."</p>
+        </div>
+    </header>
+
+    <main>
+        <!-- Menu Section -->
+        <section id="menu" class="menu-section">
+            <div class="container">
+                <h2>Our Popular Dishes</h2>
+                <div class="menu-grid">
+                    <div class="menu-card">
+                        <img src="c:\users\gugan m r\Downloads\mutton-biriyani-recipe.jpeg" alt="Biriyani">
+                        <h3>Biriyani</h3>
+                        <p>Spicy Mutton Biriyani</p>
+                        <span>Rs 250</span>
+                    </div>
+                    <div class="menu-card">
+                        <img src="c:\users\gugan m r\Downloads\pasta.jpg" alt="Pasta">
+                        <h3>Pasta</h3>
+                        <p>Cheesy Pasta</p>
+                        <span>Rs 150</span>
+                    </div>
+                    <div class="menu-card">
+                        <img src="c:\Users\gugan m r\Downloads\Mistakes-To-Avoid-When-Grilling-Steak-FT-BLOG0622-2000-9470d6138120449885c7b91524c51cc4.jpg" alt="Grilled Steak">
+                        <h3>Grilled Steak</h3>
+                        <p>Juicy Steak Cooked to Perfection</p>
+                        <span>Rs 300</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Order Section -->
+        <section id="order" class="order-section">
+            <div class="container">
+                <h2>Place Your Order</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="dish">Select Dish</label>
+                        <select id="dish" name="dish" required>
+                            <option value="Biriyani">Biriyani</option>
+                            <option value="Pasta">Pasta</option>
+                            <option value="Steak">Grilled Steak</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="quantity">Quantity</label>
+                        <input type="number" id="quantity" name="quantity" min="1" value="1">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="address">Delivery Address</label>
+                        <textarea id="address" name="address" rows="3" required></textarea>
+                    </div>
+
+                    <button type="submit">Order Now</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Just Eat. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
+
+<style>
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333;
+    background-color: #f4f4f9;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header */
+.hero {
+    color: #fff;
+    background-color: #f9a333;
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin: 0.5rem 0;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    line-height: 1.6;
+    margin-top: 1rem;
+}
+
+/* Menu Section */
+.menu-section {
+    padding: 3rem 0;
+    background: #f9a333;
+}
+
+.menu-section h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.menu-grid {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.menu-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    padding: 1.5rem;
+    width: 30%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.menu-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.menu-card img {
+    max-width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.menu-card h3 {
+    margin: 1rem 0;
+    font-size: 1.6rem;
+}
+
+.menu-card span {
+    color: #ff6347;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* Order Section */
+.order-section {
+    padding: 3rem 0;
+    background: #f9a333;
+}
+
+.order-section h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+form {
+    max-width: 450px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #f9a333;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    width: 100%;
+    padding: 1rem;
+    background: #090200;
+    color: #f39f2a;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background: #f39f2a;
+    color: #fff;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .menu-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu-card {
+        width: 80%;
+        margin-bottom: 1.5rem;
+    }
+
+    form {
+        padding: 1.5rem;
+    }
+}
+</style>
+
+         
+     
+  
