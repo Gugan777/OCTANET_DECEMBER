@@ -23,19 +23,19 @@
                 <h2>Our Popular Dishes</h2>
                 <div class="menu-grid">
                     <div class="menu-card">
-                        <img src="c:\users\gugan m r\Downloads\mutton-biriyani-recipe.jpeg" alt="Biriyani">
+                        <img src="https://t4.ftcdn.net/jpg/06/12/87/71/360_F_612877124_1ZmDz0V37Yc48er7IdGZbv3vi20l1L0Y.jpg" alt="Biriyani">
                         <h3>Biriyani</h3>
                         <p>Spicy Mutton Biriyani</p>
                         <span>Rs 250</span>
                     </div>
                     <div class="menu-card">
-                        <img src="c:\users\gugan m r\Downloads\pasta.jpg" alt="Pasta">
+                        <img src="https://assets.epicurious.com/photos/5988e3458e3ab375fe3c0caf/1:1/w_3607,h_3607,c_limit/How-to-Make-Chicken-Alfredo-Pasta-hero-02082017.jpg" alt="Pasta">
                         <h3>Pasta</h3>
                         <p>Cheesy Pasta</p>
                         <span>Rs 150</span>
                     </div>
                     <div class="menu-card">
-                        <img src="c:\Users\gugan m r\Downloads\Mistakes-To-Avoid-When-Grilling-Steak-FT-BLOG0622-2000-9470d6138120449885c7b91524c51cc4.jpg" alt="Grilled Steak">
+                        <img src="https://media.istockphoto.com/id/972852490/photo/bbq-sirloin-steaks-with-fresh-thyme.jpg?s=612x612&w=0&k=20&c=QQE7LQ3oMe77XL1pV-BjwyylJhOb9NPPh_w3VNlM3ls=" alt="Grilled Steak">
                         <h3>Grilled Steak</h3>
                         <p>Juicy Steak Cooked to Perfection</p>
                         <span>Rs 300</span>
@@ -266,6 +266,10 @@ footer {
     }
 }
 </style>
+
+         
+     
+  
 
          
      
